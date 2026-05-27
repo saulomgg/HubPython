@@ -1,0 +1,38 @@
+# ⚖️ Calculadora de IMC e Peso Ideal
+
+## 📌 Sobre
+
+Aplicação em Python com interface gráfica desenvolvida para calcular o IMC (Índice de Massa Corporal) e estimar o peso ideal com base em informações fornecidas pelo usuário.
+
+O sistema também exibe recomendações relacionadas à classificação do IMC e uma tabela explicativa integrada.
+
+---
+
+## ⚙️ Funcionalidades
+
+- ⚖️ Cálculo automático do IMC
+- 📊 Classificação do índice corporal
+- 🎯 Estimativa de peso ideal
+- 🧾 Recomendações baseadas no resultado
+- 👤 Suporte para nome, idade e sexo
+- 🖥️ Interface gráfica simples com Tkinter
+- 📋 Exibição da tabela completa de IMC
+
+---
+
+## 🛠️ Requisitos
+
+Certifique-se de ter o Python 3 instalado.
+
+### Bibliotecas utilizadas
+
+- `tkinter` (nativa do Python)
+
+---
+
+## ▶️ Como usar
+
+Execute o script:
+
+```bash
+python script.py
