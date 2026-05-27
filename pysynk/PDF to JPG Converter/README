@@ -1,0 +1,28 @@
+# 📄 PDF to JPG Converter
+
+## 📌 Sobre
+
+Este script em Python permite converter arquivos PDF em imagens JPG de forma simples e rápida.
+
+Ele suporta múltiplos arquivos e gera uma imagem para cada página do PDF.
+
+---
+
+## ⚙️ Funcionalidades
+
+- 📂 Seleção de múltiplos arquivos PDF
+- 📁 Escolha da pasta de destino
+- 🖼️ Conversão de cada página em imagem JPG
+- 🎯 Alta qualidade de saída (300 DPI)
+- 🔄 Processamento automático em lote
+
+---
+
+## 🛠️ Requisitos
+
+Certifique-se de ter o Python 3 instalado.
+
+### Bibliotecas necessárias:
+
+```bash id="pyreq1"
+pip install pymupdf
