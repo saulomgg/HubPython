@@ -1,53 +1,26 @@
-# Bineural Generator
+# 🎧 Gerador de Batidas Binaurais (Bineural Generator)
 
-## Overview
+## 📌 Visão Geral
 
-Bineural Generator is a Python-based application that allows users to create and manipulate binaural beats using different waveforms. The application provides an intuitive GUI built with Tkinter and supports various frequency adjustments for custom audio generation.
+O **Bineural Generator** é uma aplicação em Python que permite criar e manipular batidas binaurais utilizando diferentes formas de onda.
 
-## Features
+O projeto possui uma interface gráfica intuitiva desenvolvida com **Tkinter**, permitindo ajustes de frequência e geração personalizada de áudio.
 
-- Generate binaural beats using **Sine, Square, Triangle, and White Noise** waveforms
-- Adjustable frequency and volume settings
-- Save generated audio files
-- Real-time audio playback using **pygame**
-- Simple and user-friendly graphical interface
+---
 
-## Requirements
+## ⚙️ Funcionalidades
 
-Ensure you have the following dependencies installed before running the application:
+- 🎵 Geração de batidas binaurais com ondas Senoidal, Quadrada, Triangular e Ruído Branco  
+- 🎚️ Ajuste de frequência e volume  
+- 💾 Salvamento de arquivos de áudio gerados  
+- 🔊 Reprodução em tempo real usando pygame  
+- 🖥️ Interface gráfica simples e intuitiva  
 
-```bash
+---
+
+## 🛠️ Requisitos
+
+Instale as dependências:
+
+```sh
 pip install pydub pygame
-```
-
-Additionally, you need **ffmpeg** installed to handle audio processing. You can install it using:
-
-- **Windows**: Download from [FFmpeg official website](https://ffmpeg.org/download.html)
-- **Linux/macOS**: Install via package manager, e.g.,
-  ```bash
-  sudo apt install ffmpeg  # Debian-based
-  brew install ffmpeg  # macOS
-  ```
-
-## Usage
-
-1. Run the application:
-   ```bash
-   python bineural_generator.py
-   ```
-2. Choose a waveform and adjust the frequency.
-3. Click **Play** to listen in real-time.
-4. Click **Save** to export the generated audio file.
-
-## Contributing
-
-Feel free to fork this repository, submit pull requests, or report issues.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Acknowledgments
-
-Special thanks to the **pydub** and **pygame** communities for providing powerful audio manipulation tools.
-
