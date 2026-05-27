@@ -1,27 +1,28 @@
 # 🖥️ PySynk - Collection of Python Scripts 🔥  
 
-**PySynk** is part of the **StampSynk** project, a collection of ready-to-use codes designed to simplify daily tasks and optimize processes.  
+PySynk é uma coleção de scripts em Python voltados para automação, produtividade e tarefas do dia a dia.
 
-🚀 **Here you will find**:  
-✔️ Automation scripts  
-✔️ File manipulation tools  
-✔️ Downloaders and converters  
-✔️ Productivity optimization scripts  
-✔️ And much more!  
+Este repositório reúne ferramentas e códigos desenvolvidos para uso pessoal, testes e estudos em programação.
 
-## 📌 What is StampSynk?  
-**StampSynk** is a personal project where I gather all my codes, tools, and solutions for automation, productivity, and development. Here, you will find ready-to-use scripts, organized by language and purpose.  
+---
 
-📥 **Download more scripts and support the project at [StampSynk.com](https://stampsynk.com)**  
+## 🚀 Conteúdo
 
-## 🔧 How to Use  
-1. Clone the repository or download the desired script.  
-2. Run it in your Python environment (Python 3+ recommended).  
-3. Enjoy the tools to make your tasks easier!  
+Neste repositório você encontrará:
 
-## 📢 Follow Me  
-📺 **YouTube:** [@saulomgg](https://www.youtube.com/@saulomgg)  
-📸 **Instagram:** [@saulomg2](https://www.instagram.com/saulomg2)  
-🐦 **X (Twitter):** [@stampsynk](https://x.com/stampsynk)  
+- ✔️ Scripts de automação
+- ✔️ Ferramentas para manipulação de arquivos
+- ✔️ Downloaders e conversores
+- ✔️ Scripts de produtividade
+- ✔️ Utilitários diversos em Python
 
-StampSynk is constantly evolving! If you find the scripts useful, share and support the project!  
+---
+
+## 🔧 Como usar
+
+1. Baixe ou clone o repositório  
+2. Execute os scripts com Python 3+ instalado  
+3. Utilize conforme sua necessidade  
+
+```bash
+python nome_do_arquivo.py
