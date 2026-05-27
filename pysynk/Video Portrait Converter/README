@@ -1,0 +1,30 @@
+# 🎬 Video Portrait Converter
+
+## 📌 Sobre
+
+Este script em Python permite converter vídeos automaticamente para o formato retrato (1080x1350) utilizando FFmpeg.
+
+O programa suporta múltiplos vídeos e cria versões otimizadas para redes sociais, mantendo o áudio original.
+
+---
+
+## ⚙️ Funcionalidades
+
+- 📂 Seleção de múltiplos vídeos
+- 📁 Escolha da pasta de saída
+- 📱 Conversão automática para formato retrato
+- 🎞️ Suporte para MP4, MOV, AVI e MKV
+- 🔄 Processamento em lote
+- 🎯 Redimensionamento automático para 1080x1350
+- 🔊 Preservação do áudio original
+
+---
+
+## 🛠️ Requisitos
+
+Certifique-se de ter o Python 3 instalado.
+
+### Bibliotecas utilizadas
+
+```bash
+pip install tk
