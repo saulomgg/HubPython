@@ -1,0 +1,83 @@
+🎥 Webcam Virtual Simulator
+
+
+
+
+
+
+
+
+📌 Sobre o projeto
+
+O Webcam Virtual Simulator é uma aplicação em Python que permite transformar imagens ou vídeos em uma webcam virtual, podendo ser usada em chamadas como:
+
+Zoom
+Discord
+Google Meet
+OBS Studio
+Microsoft Teams
+⚙️ Funcionalidades
+📁 Carregar imagens ou vídeos
+🎥 Transmitir mídia como webcam virtual
+🔁 Loop de vídeo opcional
+🖥️ Preview em tempo real
+🎛️ Suporte a múltiplas resoluções
+⏱️ Controle automático de FPS
+🧵 Execução em thread (sem travar interface)
+🧠 Como funciona
+
+O sistema utiliza:
+
+OpenCV para leitura de frames
+Pillow para preview gráfico
+pyvirtualcam para criar a webcam virtual no sistema
+Tkinter para interface gráfica
+🚀 Instalação
+pip install opencv-python pillow numpy pyvirtualcam
+▶️ Como usar
+python webcam_simulator.py
+Passos:
+Clique em Carregar Mídia
+Escolha uma imagem ou vídeo
+Ajuste resolução (opcional)
+Clique em Iniciar Webcam Virtual
+Selecione a câmera virtual no Zoom/Discord/OBS
+📁 Tipos suportados
+Imagens:
+JPG
+JPEG
+PNG
+BMP
+Vídeos:
+MP4
+AVI
+MOV
+MKV
+🛑 Parar execução
+
+Clique em:
+
+⏹ Parar Webcam Virtual
+⚠️ Observações
+Funciona apenas com pyvirtualcam instalado corretamente
+Pode exigir permissão de câmera virtual no sistema
+FPS depende do hardware
+👨‍💻 Tecnologias usadas
+Python
+Tkinter
+OpenCV
+Pillow
+PyVirtualCam
+NumPy
+📌 Status do projeto
+
+✔ Funcional
+✔ Estável
+✔ Offline
+✔ Sem dependência de API externa
+
+🧩 Possíveis melhorias
+Adicionar filtros (IA / efeitos)
+Suporte a áudio sincronizado
+Integração com OBS automatizada
+Interface moderna (CustomTkinter / PyQt)
