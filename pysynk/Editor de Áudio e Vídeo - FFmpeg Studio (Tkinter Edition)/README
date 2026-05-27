@@ -1,0 +1,108 @@
+🎵 Audio & Video Editor (Tkinter + FFmpeg)
+
+Editor de áudio e vídeo simples e eficiente com interface gráfica feita em Python (Tkinter) utilizando FFmpeg como motor de processamento.
+
+✨ Funcionalidades
+🎬 Edição de mídia
+Cortar áudio/vídeo com precisão
+Seleção de início e fim manual ou via timeline
+Player integrado com FFplay
+Controle de posição em tempo real
+🔄 Conversão
+Conversão entre formatos:
+MP3
+WAV
+OGG
+FLAC
+AAC
+M4A
+📦 Processamento em lote
+Converter múltiplos arquivos ao mesmo tempo
+Fila de arquivos
+Barra de progresso
+🛠️ Ferramentas
+Timeline interativa
+Marcação de início e fim
+Controle de reprodução
+Interface simples e funcional
+⚙️ Requisitos
+
+Antes de executar, instale:
+
+🔧 FFmpeg (obrigatório)
+
+O programa depende do FFmpeg.
+
+Windows:
+
+Baixe: https://github.com/BtbN/FFmpeg-Builds/releases
+Extraia
+Adicione a pasta bin ao PATH
+
+Linux:
+
+sudo apt install ffmpeg
+
+Mac:
+
+brew install ffmpeg
+🐍 Requisitos Python
+Python 3.8+
+
+Bibliotecas padrão (não precisa instalar):
+
+tkinter
+subprocess
+threading
+json
+os
+pathlib
+🚀 Como executar
+
+Clone o projeto:
+
+git clone https://github.com/seu-usuario/seu-repo.git
+
+Entre na pasta:
+
+cd seu-repo
+
+Execute:
+
+python main.py
+📁 Estrutura
+project/
+│
+├── main.py
+├── README.md
+└── assets/
+🧠 Como funciona
+
+O software usa:
+
+FFprobe → lê duração e dados do arquivo
+FFplay → reproduz áudio/vídeo
+FFmpeg → faz cortes e conversões
+
+A interface apenas controla esses comandos via Python.
+
+✂️ Exemplo de uso
+Carregar arquivo
+Definir início e fim
+Clicar em "Cortar"
+Ou converter formato
+Ou processar em lote
+⚠️ Observações
+Não é necessário internet
+Tudo roda localmente
+Depende apenas do FFmpeg instalado no sistema
+📌 Tecnologias usadas
+Python
+Tkinter
+FFmpeg
+FFplay
+FFprobe
+
+📄 Licença
+
+Uso livre para estudos e projetos pessoais.
