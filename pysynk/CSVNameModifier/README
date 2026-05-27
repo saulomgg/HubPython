@@ -1,0 +1,37 @@
+# 📄 CSV Name Modifier
+
+## 📌 Sobre
+
+Este script em Python permite modificar arquivos CSV de forma simples e automática, adicionando um prefixo ao valor da primeira coluna de cada linha.
+
+Ele utiliza uma interface gráfica básica para seleção do arquivo, facilitando o uso sem necessidade de editar o código.
+
+---
+
+## ⚙️ Funcionalidades
+
+- 📂 Seleção de arquivo CSV via interface (Tkinter)
+- ✏️ Leitura e processamento de dados CSV
+- ➕ Adição do prefixo "Consumidor" na primeira coluna
+- 💾 Geração de um novo arquivo `output.csv`
+- 🔒 O arquivo original não é alterado
+
+---
+
+## 🛠️ Requisitos
+
+Certifique-se de ter o Python 3 instalado.
+
+Bibliotecas utilizadas:
+
+- `csv` (nativa do Python)
+- `tkinter` (nativa do Python)
+
+---
+
+## ▶️ Como usar
+
+1. Execute o script:
+
+```bash id="..."
+python script.py
