@@ -1,39 +1,36 @@
-# Instagram Post Downloader - Stampsynk Edition
+# 📥 Baixador de Posts do Instagram - Stampsynk Edition
 
-### 📌 About
-This is a simple Python tool that allows users to download all posts from a public Instagram profile using `instaloader`.
-It provides an easy-to-use graphical interface with `Tkinter`, where users can enter a profile username, select a destination folder, and start the download process.
+Ferramenta simples em Python para baixar todos os posts de um perfil público do Instagram utilizando **Instaloader**.
 
-### ⚙️ Features
-- 📥 Download all posts from a public Instagram profile.
-- 📂 Save files in a user-selected directory.
-- ⚠️ Display error messages for invalid inputs.
-- 🔗 Quick access buttons for Instagram and website links.
+O projeto possui uma interface gráfica simples com **Tkinter**, permitindo inserir o nome do usuário, escolher uma pasta e iniciar o download de forma rápida e prática.
 
-### 🚀 Installation
-#### Requirements:
-Make sure you have Python installed on your system. Then, install the necessary dependencies:
+---
+
+## 📌 Sobre
+
+Este script permite baixar todos os posts de perfis públicos do Instagram de forma automatizada.
+
+Foi desenvolvido com foco em simplicidade, automação e organização de arquivos locais.
+
+---
+
+## ⚙️ Funcionalidades
+
+- 📥 Baixar todos os posts de um perfil público do Instagram  
+- 📂 Salvar arquivos em uma pasta escolhida pelo usuário  
+- ⚠️ Tratamento de erros para usuários inválidos  
+- 🔗 Interface gráfica simples (Tkinter)  
+- 🚀 Execução leve e rápida  
+
+---
+
+## 🛠️ Instalação
+
+### Requisitos
+
+Certifique-se de ter o Python 3 instalado.
+
+Instale a dependência:
+
 ```sh
 pip install instaloader
-```
-
-### 🛠️ Usage
-Run the script using:
-```sh
-python script.py
-```
-Then:
-1. Enter the Instagram username (without `@`).
-2. Select a folder to save the images.
-3. Click "Download" to start downloading the posts.
-
-### ⚠️ Disclaimer
-- This tool works only for **public profiles** unless you log in with valid credentials.
-- **Respect Instagram's policies** when using this tool.
-
-### 🌐 Links
-- 🔗 Website: [Stampsynk](https://stampsynk.com)
-- 📷 Instagram: [saulomg2](https://www.instagram.com/saulomg2/)
-
-### 📜 License
-This project is for educational purposes only. Use responsibly! ✅
