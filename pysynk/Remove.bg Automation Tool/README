@@ -1,0 +1,45 @@
+# 🖼️ Remove.bg Automation Tool
+
+## 🚀 Sobre o projeto
+
+O **Remove.bg Automation Tool** é uma aplicação desktop desenvolvida em **Python + Tkinter** que automatiza a remoção de fundo de imagens utilizando a API oficial do **remove.bg**.
+
+O sistema permite processar:
+- 🖼️ Imagens individuais com pré-visualização
+- 📦 Processamento em lote de múltiplas imagens
+- 💾 Salvamento automático dos resultados
+
+---
+
+## ✨ Funcionalidades
+
+### 🖼️ Modo Imagem Única
+- Seleção de imagem via interface gráfica
+- Pré-visualização da imagem original e processada
+- Remoção de fundo com um clique
+- Salvamento automático no mesmo diretório
+
+### 📦 Modo Lote (Batch)
+- Seleção de pasta com imagens
+- Processamento automático em massa
+- Barra de status em tempo real
+- Contagem de sucesso e falhas
+
+### 🔐 API Integrada
+- Integração com **remove.bg API**
+- Uso de chave de API pessoal
+- Processamento via nuvem (IA)
+
+---
+
+## ⚙️ Requisitos
+
+### 🐍 Python
+- Python 3.8 ou superior
+
+### 📦 Bibliotecas necessárias
+
+Instale com:
+
+```bash id="dep1"
+pip install removebg pillow
