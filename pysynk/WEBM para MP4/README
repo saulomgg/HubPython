@@ -1,0 +1,48 @@
+# 🎬 WEBM para MP4 (Instagram Converter)
+
+Conversor em lote de vídeos **WEBM para MP4**, otimizado automaticamente para formatos verticais usados no **Instagram Reels e Stories (1080x1920)**.
+
+O projeto possui uma interface simples em **Tkinter** e utiliza **FFmpeg** para processamento de vídeo em alta eficiência.
+
+---
+
+## 📌 Sobre o projeto
+
+Esta ferramenta permite selecionar vários vídeos `.webm` e convertê-los automaticamente para `.mp4`, já ajustados para formato vertical.
+
+O objetivo é facilitar a adaptação de vídeos para redes sociais, mantendo qualidade e proporção correta sem distorções.
+
+---
+
+## ⚙️ Funcionalidades
+
+- 📂 Seleção de múltiplos vídeos `.webm`
+- 🎬 Conversão automática para `.mp4`
+- 📱 Otimização para formato vertical (1080x1920)
+- 🧱 Ajuste automático de proporção com padding
+- 🎥 Compressão com codec H.264 (libx264)
+- 🔊 Conversão de áudio para AAC
+- ⚡ Processamento em lote
+- 🖥️ Interface simples com Tkinter
+
+---
+
+## 🛠️ Requisitos
+
+Antes de executar, instale:
+
+### Python 3.x
+https://www.python.org/
+
+### FFmpeg
+Necessário estar instalado e adicionado ao PATH:
+https://ffmpeg.org/
+
+---
+
+## 🚀 Como usar
+
+1. Execute o script:
+
+```bash
+python app.py
