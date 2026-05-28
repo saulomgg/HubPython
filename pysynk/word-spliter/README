@@ -1,0 +1,75 @@
+# 📄 Word Splitter (Docx Split Tool)
+
+Uma ferramenta simples e eficiente em Python com interface gráfica (Tkinter) para dividir arquivos `.docx` em múltiplas partes automaticamente.
+
+---
+
+## 🚀 Funcionalidades
+
+- 📁 Seleciona arquivos `.docx` facilmente
+- ✂️ Divide documentos em partes iguais
+- 📊 Mostra número de páginas e tamanho do arquivo
+- 📂 Escolha da pasta de saída
+- 🖥 Interface gráfica simples (Tkinter)
+- ⚡ Processamento rápido e local (sem internet)
+
+---
+
+## 🧠 Como funciona
+
+O sistema utiliza a estrutura interna do Word (XML) para identificar as seções do documento e dividir o conteúdo proporcionalmente entre o número de partes escolhido.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- Python 3
+- Tkinter (GUI)
+- python-docx
+- os / math (bibliotecas padrão)
+
+---
+
+## 📦 Instalação
+
+### 1. Clone o repositório
+```bash
+git clone https://github.com/seu-usuario/word-splitter.git
+cd word-splitter
+
+2. Instale as dependências
+pip install python-docx
+3. Execute o projeto
+python main.py
+🖥️ Como usar
+Clique em "Selecionar DOCX"
+Escolha o arquivo Word
+Defina o número de partes
+Escolha a pasta de saída
+Clique em "Dividir DOCX"
+📁 Exemplo de saída
+output/
+ ├── part_1.docx
+ ├── part_2.docx
+ ├── part_3.docx
+⚙️ Detalhes técnicos
+A divisão é baseada em elementos internos do Word (sectPr)
+
+O tamanho das partes é calculado automaticamente:
+
+páginas por parte = total de seções ÷ número de partes
+Todos os arquivos são gerados localmente
+🔐 Segurança
+❌ Não usa internet
+❌ Não envia arquivos para servidores
+❌ Não usa APIs externas
+✔ 100% offline
+📌 Possíveis melhorias futuras
+ Suporte a PDF
+ Drag & drop de arquivos
+ Preview do documento
+ Melhor precisão de páginas reais
+ Versão executável (.exe)
+👨‍💻 Autor
+
+Projeto desenvolvido para automação e manipulação de documentos Word de forma simples e rápida.
