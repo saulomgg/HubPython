@@ -34,7 +34,7 @@ O sistema utiliza a estrutura interna do Word (XML) para identificar as seções
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/word-splitter.git
+git clone https://github.com/saulomgg/word-splitter.git
 cd word-splitter
 
 2. Instale as dependências
