@@ -1,0 +1,80 @@
+✂️ CutSynk - Ferramenta de Corte Rápido de Vídeo
+
+📌 Sobre o projeto
+
+O CutSynk é uma ferramenta leve e rápida para corte de vídeos usando FFmpeg, com interface gráfica feita em Tkinter.
+
+Ele faz parte do ecossistema HubSynk, focado em ferramentas multimídia rápidas, simples e eficientes.
+
+⚙️ Funcionalidades
+📁 Seleção de arquivos de vídeo
+✂️ Corte preciso por tempo (início e fim)
+⏱️ Suporte a formatos:
+HH:MM:SS.mmm
+Segundos diretos
+⚡ Corte rápido usando FFmpeg (-c copy)
+🖥️ Interface gráfica simples e moderna
+📊 Exibição da duração total do vídeo
+🔁 Processamento em thread (não trava a interface)
+🎯 Como funciona
+
+O CutSynk utiliza:
+
+FFmpeg → para cortar o vídeo sem re-encode (rápido)
+FFprobe → para obter duração do vídeo
+Tkinter → interface gráfica
+Python threads → processamento em segundo plano
+
+🚀 Instalação
+1. Instalar dependências Python
+pip install tkinter
+
+(Tkinter já vem com Python na maioria dos sistemas)
+
+2. Instalar FFmpeg
+Windows
+
+Baixe:
+https://github.com/BtbN/FFmpeg-Builds/releases
+
+📁 Formatos suportados
+MP4
+AVI
+MOV
+MKV
+Outros formatos suportados pelo FFmpeg
+
+⚡ Performance
+
+O CutSynk utiliza:
+
+✔ Corte direto (-c copy)
+✔ Sem re-renderização (quando possível)
+✔ Processamento leve e rápido
+
+🧠 Tecnologias usadas
+Python
+Tkinter
+FFmpeg
+FFprobe
+JSON parsing
+Threads
+
+📌 Estrutura do projeto
+CutSynk/
+│
+├── cut_synk.py
+└── README.md
+
+🚨 Requisitos
+Python 3.8+
+FFmpeg instalado no sistema
+FFprobe disponível no PATH
+
+💡 Possíveis melhorias
+Timeline visual do vídeo
+Preview integrado
+Corte múltiplo (batch)
+Exportação com compressão
+Interface moderna (CustomTkinter / PyQt)
+Drag & drop de arquivos
