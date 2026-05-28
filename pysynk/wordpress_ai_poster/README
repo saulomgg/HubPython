@@ -1,0 +1,168 @@
+# 🤖 WordPress AI Auto Poster
+
+Sistema automatizado para criação e agendamento de postagens no WordPress utilizando Inteligência Artificial + APIs de imagens.
+
+Desenvolvido por Saulomgg
+GitHub Oficial: https://github.com/saulomgg
+
+---
+
+# 🚀 Sobre o Projeto
+
+O WordPress AI Auto Poster foi criado para automatizar a produção de conteúdo para blogs e sites WordPress.
+
+O sistema:
+
+* Gera artigos automaticamente com IA
+* Busca imagens automaticamente
+* Faz upload automático para WordPress
+* Agenda postagens automaticamente
+* Cria slugs SEO-friendly
+* Processa temas em massa através de um arquivo TXT
+
+Ideal para:
+
+* Blogs automáticos
+* SEO
+* Sites de nicho
+* Automação de conteúdo
+* Projetos de produtividade
+
+---
+
+# ⚡ Funcionalidades
+
+✅ Geração automática de artigos com IA
+✅ Integração com Google Gemini
+✅ Busca automática de imagens
+✅ Integração com Pexels
+✅ Integração com Pixabay
+✅ Upload automático para WordPress
+✅ Agendamento automático de postagens
+✅ Geração automática de slug
+✅ Sistema simples e fácil de modificar
+
+---
+
+# 📂 Estrutura do Projeto
+
+```bash id="mv5nww"
+wordpress-ai-auto-poster/
+│
+├── main.py
+├── frases.txt
+└── README.md
+```
+
+---
+
+# 📥 Instalação
+
+Clone o repositório:
+
+```bash id="5yj9zw"
+git clone https://github.com/saulomgg/HubPython.git
+```
+
+Entre na pasta do projeto:
+
+```bash id="x9mx4v"
+cd HubPython/pysynk/wordpress-ai-auto-poster
+```
+
+Instale as dependências necessárias:
+
+```bash id="2k0mf5"
+pip install requests unidecode
+```
+
+---
+
+# 🔑 Configuração
+
+Antes de executar o sistema, adicione suas APIs no arquivo `wordpress_ai_poster`.
+
+Você precisará configurar:
+
+* WordPress REST API
+* Google Gemini API
+* Pexels API
+* Pixabay API
+
+---
+
+# 📝 Arquivo frases.txt
+
+Adicione uma frase por linha:
+
+```txt id="8m4wdv"
+How to make money online
+Best SEO strategies
+AI tools for productivity
+Crypto trends
+```
+
+Cada linha será transformada em uma postagem automática.
+
+---
+
+# ⚙️ Como Funciona
+
+O sistema:
+
+1. Lê a primeira linha do arquivo TXT
+2. Gera um artigo utilizando IA
+3. Busca uma imagem automaticamente
+4. Faz upload da imagem para WordPress
+5. Agenda a postagem
+6. Remove a frase utilizada
+7. Continua automaticamente
+
+---
+
+# ▶️ Como Executar
+
+```bash id="vlr3kn"
+python wordpress_ai_poster
+```
+
+Depois informe:
+
+```text id="t83i3v"
+⏳ Intervalo entre postagens (horas):
+```
+
+Exemplo:
+
+```text id="7xprm3"
+2
+```
+
+O sistema agendará uma postagem a cada 2 horas.
+
+---
+
+# 📌 Observações
+
+* Nunca publique suas APIs
+* Recomendado utilizar APIs próprias
+* Projeto voltado para estudos e automação
+* O código pode ser facilmente modificado
+
+---
+
+# 🛠️ Futuras Melhorias
+
+* Interface gráfica
+* Painel web
+* Multi WordPress
+* Tradução automática
+* Categorias automáticas
+* Sistema de logs
+
+---
+
+# 👨‍💻 Desenvolvedor
+
+Saulomgg
+GitHub: https://github.com/saulomgg
