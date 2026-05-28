@@ -1,0 +1,82 @@
+VcSynk - Video Converter Tool
+
+📌 Descrição
+
+O VcSynk é uma ferramenta desktop desenvolvida em Python com interface gráfica (Tkinter) para conversão e compressão de vídeos utilizando FFmpeg.
+
+Ele permite converter múltiplos arquivos de vídeo com diferentes codecs, perfis de qualidade e opções de áudio, de forma simples e rápida.
+
+⚙️ Funcionalidades
+📁 Seleção de múltiplos arquivos (batch conversion)
+📂 Escolha de pasta de saída
+
+🎞️ Conversão de vídeo para:
+MP4 (H.264)
+MKV (H.265 / HEVC)
+WEBM (VP9)
+MOV (ProRes)
+
+🎚️ Perfis de compressão:
+Qualidade
+Balanceado
+Rápido
+
+🎧 Escolha de codec de áudio:
+AAC (Compatível)
+Opus (Alta eficiência)
+
+⚡ Suporte a aceleração por GPU:
+NVIDIA NVENC
+Intel QSV
+AMD AMF
+
+📊 Barra de progresso em tempo real
+⛔ Botão de parada de conversão
+📄 Log de erros opcional
+💾 Estimativa de redução de tamanho
+🧠 Detecção automática de codecs disponíveis no FFmpeg
+
+🧩 Requisitos
+Python 3.8+
+FFmpeg instalado e adicionado ao PATH
+Bibliotecas Python:
+pip install tkinter
+
+(Outras libs usadas são padrão do Python)
+
+▶️ Como usar
+Execute o script:
+python vc_synk.py
+Clique em Select File(s) e escolha os vídeos
+Escolha a pasta de saída
+Defina:
+Formato (MP4, MKV, WEBM, MOV)
+Perfil de compressão
+Codec de áudio
+Clique em Start Conversion
+📁 Saída
+
+Os arquivos convertidos serão salvos em:
+
+/Videos/VcSynk_Output
+
+ou na pasta escolhida pelo usuário.
+
+⚠️ Observações
+FFmpeg é obrigatório
+WEBM (VP9) depende do codec libvpx-vp9
+ProRes gera arquivos maiores (uso profissional)
+A conversão pode variar de acordo com o hardware
+
+🧠 Segurança / Privacidade
+Nenhuma informação é enviada para servidores externos
+Todo processamento ocorre localmente
+Nenhuma API externa é utilizada
+
+🔗 HubSynk Ecosystem
+
+VcSynk faz parte do ecossistema HubSynk:
+
+📜 Licença
+
+Projeto interno HubSynk — uso pessoal e educacional.
