@@ -1,28 +1,66 @@
-# 🖥️ PySynk - Collection of Python Scripts 🔥  
+# 🧰 Tools Collection
 
-PySynk é uma coleção de scripts em Python voltados para automação, produtividade e tarefas do dia a dia.
+This folder contains a collection of Python tools developed for automation, media processing, file manipulation, AI utilities, and general productivity.
 
-Este repositório reúne ferramentas e códigos desenvolvidos para uso pessoal, testes e estudos em programação.
-
----
-
-## 🚀 Conteúdo
-
-Neste repositório você encontrará:
-
-- ✔️ Scripts de automação
-- ✔️ Ferramentas para manipulação de arquivos
-- ✔️ Downloaders e conversores
-- ✔️ Scripts de produtividade
-- ✔️ Utilitários diversos em Python
+These tools are part of a larger personal development ecosystem and are organized for learning, testing, and practical use.
 
 ---
 
-## 🔧 Como usar
+## 🚀 Purpose
 
-1. Baixe ou clone o repositório  
-2. Execute os scripts com Python 3+ instalado  
-3. Utilize conforme sua necessidade  
+The goal of this repository is to centralize useful scripts and small applications that solve real-world tasks such as:
 
-```bash
-python nome_do_arquivo.py
+- Automation of repetitive processes
+- Media conversion and editing
+- Downloading and scraping tools
+- AI-based utilities
+- File processing and organization
+
+---
+
+## 📁 Structure
+
+Each folder inside `tools/` represents an independent tool:
+
+tools/
+├── cut-video/
+├── ig-backup/
+├── pdf-to-jpg-converter/
+├── ai-image-creator/
+└── ...
+
+Inside each tool you will typically find:
+
+- A main Python script
+- A README.md with specific usage instructions
+
+---
+
+## 🔧 How to use
+
+1. Clone the repository:
+
+git clone https://github.com/saulomgg/HubPython.git
+Navigate to a tool:
+cd tools/cut-video
+Run the script:
+python script.py
+
+⚠️ Notes
+These tools are intended for educational and personal use.
+Some tools may require external APIs or dependencies.
+Always check the individual tool README before usage.
+
+📌 Organization Philosophy
+
+This repository is kept simple and scalable:
+
+Each tool is independent
+Minimal dependencies where possible
+Clear and readable structure
+Easy to expand over time
+
+👨‍💻 Author
+
+Developed by Saulomg
+GitHub: https://github.com/saulomgg
